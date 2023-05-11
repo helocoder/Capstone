@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.app {
+  min-height: 100vh;
+}
+.home_container {
+  width: 100vw;
+  height: 100vh;
+}
+.home_img {
+  background: url("../public/img/wall.png");
+  background-size: cover;
+  margin-top: 20%;
+  margin-left: 25%;
+  padding: 10px;
+  width: 60%;
+  height: 60%;
+  background-position: center;
+}
+.chatContainer {
+  width: "100%";
+  background: url("../public/img/title_background.jpg");
+  color: "#FFF";
+}
+.brand {
+  font-family: Righteous, cursive;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: #fb7d10;
+}
+::-webkit-slider-thumb:hover {
+  background: #1d1931;
+}
+.message {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  width: 100%;
+}
